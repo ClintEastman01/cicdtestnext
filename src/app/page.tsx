@@ -6,6 +6,7 @@ export default function Home() {
       {names.map((name, index) => (
         <p key={`name-${index}`}>{name}</p>
       ))}
+      <div>Hello world</div>
     </>
   );
 }
